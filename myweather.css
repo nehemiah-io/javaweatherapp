@@ -1,0 +1,103 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: SFUIDisplay-Regular, HelveticaNeue;
+    font-size: 14px;
+    color: #FFFFFF;
+    /* Rectangle: */
+    /* Rectangle 2: */
+	/*background-image: linear-gradient(-139deg, #8A8686 0%, rgba(4,4,4,0.71) 90%, rgba(0,0,0,0.70) 90%);
+*/
+
+/* Rectangle 1: */
+	background-image: linear-gradient(-188deg, #363535 0%, rgba(4,4,4,0.71) 100%, rgba(0,0,0,0.70) 100%);
+
+    overflow: hidden;
+    position: fixed;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+.bigcontainer{
+	width: 100%;
+    height: 100%;
+    max-width: 414px;
+    min-height: 568px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+}
+
+.smallcontainer{
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+.iconcontainer{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+
+}
+
+.inline{
+    display: inline-block;
+    margin: auto;
+}
+
+.location{
+	font-size: 40px;
+	text-align: center;
+}
+
+.weather{
+	font-size: 25px;
+	text-align: center;
+}
+
+.temp{
+	font-size: 20px;
+	text-align: center;
+}
+
+.icon{
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+.form{
+	text-align: center;
+
+}
+
+.saveCity{
+	text-align: center;
+}
+
+.button{
+    border-radius: 10px;
+    width: 50%;
+    display: inline-block;
+}
+
